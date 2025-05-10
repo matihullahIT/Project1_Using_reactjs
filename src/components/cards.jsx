@@ -4,7 +4,7 @@ const cards = () => {
     <div className="relative z-0 mt-20">
       <div>
       <div
-        className="grid grid-cols-2 gap-9 p-19 bg-black text-white my-30"
+        className="grid grid-cols-2 gap-y-26 gap-x-7 p-19 bg-black text-white my-30"
       >
         <h3  className="text-5xl font-bold text-white">What we offer</h3>   
         <br/>   
