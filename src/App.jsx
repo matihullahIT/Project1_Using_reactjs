@@ -1,10 +1,17 @@
+import Navbar from "./components/navbar"
+import HeroSection from "./components/HeroSection"
+import Cards from "./components/cards";
+import "./index.css"
 function App() {
-
+  document.title="LOGO";
   return (
     <>
-      <div className='bg-blue-400 font-bold'>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero et repudiandae nemo reprehenderit corrupti eveniet soluta at, provident, sunt odit facilis iusto voluptatem quasi illum similique repellat architecto! Animi, eaque!
-       </div>
+    <div className="mx-8 my-3">
+      <Navbar/>
+      <HeroSection/>
+      <br/>
+      <Cards/>
+    </div>
     </>
   )
 }
