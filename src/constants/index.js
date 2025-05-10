@@ -13,65 +13,65 @@ export const Hero = {
 };
 export const CardSection=[
     {
-        id:"0",
-        color:"FA0069",
+        id:"1",
+        color:"#FA0069",
         title:"Graphic Design",
         description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscin Lorem ",
         btn:btn
         
     },
     {
-        id:"1",
-        color:"002FD8",
+        id:"2",
+        color:"#002FD8",
         title:"Web Development",
         description:description,
         btn:btn
     }
     ,
     {
-        id:"2",
-        color:"04CA00",
+        id:"3",
+        color:"#04CA00",
         title:"Visual Consultation",
         description:description,
         btn:btn
     }
     ,
     {
-        id:"3",
-        color:"B900FA",
+        id:"4",
+        color:"#B900FA",
         title:"Product Design",
         description:description,
         btn:btn
     }
 ]
-export const testimonials=[
+export const Testimonialsection=[
     {
         id:"1",
         btn:"Flowers Design",
-        img:"../assets/images/testimonial 1.svg"
+        img:"/src/assets/images/testimonial 1.svg"
     },
     {
         id:"2",
         btn:"Abstract Design",
-        img:"../assets/images/testimonial 2.svg"
+        img:"/src/assets/images/testimonial 2.svg"
     }
     ,
     {
         id:"3",
         btn:"Creative Painting",
-        img:"../assets/images/testimonial 3.svg"
+        img:"/src/assets/images/testimonial 3.svg"
     }
     ,
     {
         id:"4",
         btn:"Product Design",
-        img:"../assets/images/testimonial 4.svg"
+        img:"/src/assets/images/testimonial 4.svg"
     }
     ,
     {
         id:"5",
         btn:"Creative Painting",
-        img:"../assets/images/testimonial 5.svg"
+        img:"/src/assets/images/testimonial 5.svg"
     }
 ]
 export const footer={
