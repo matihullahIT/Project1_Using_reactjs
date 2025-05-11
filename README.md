@@ -1,12 +1,52 @@
-# React + Vite
+# Site1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React.js project named **Site1**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with React.js.
+- Modular and reusable components.
+- Modern UI/UX design.
+- Easy to customize and extend.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/site1.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd site1
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+1. Start the development server:
+    ```bash
+    npm start
+    ```
+2. Open your browser and navigate to `http://localhost:3000`.
+
+## Build
+
+To create a production build, run:
+```bash
+npm run build
+```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Preview
+
+![Site1 Preview](./public/screencapture-localhost-5173-2025-05-11-21_40_44.png)
