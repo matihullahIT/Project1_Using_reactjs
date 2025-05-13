@@ -1,10 +1,10 @@
 import { CardSection } from "../constants";
 const cards = () => {
   return (
-    <div className="relative z-0 mt-20">
+    <div className="relative z-0 my-10">
       <div>
       <div
-        className="grid grid-cols-2 gap-y-26 gap-x-7 p-19 bg-black text-white my-30"
+        className="grid grid-cols-1 sm:grid-cols-2 gap-y-10 sm:gap-y-15 gap-x-5 sm:gap-x-7 p-5 sm:p-10 bg-black text-white"
       >
         <h3  className="text-5xl font-bold text-white">What we offer</h3>   
         <br/>   
@@ -12,10 +12,10 @@ const cards = () => {
           <div
             key={index}
             id={item.id}
-            className={`flex flex-col items-baseline justify-between
-                text-black bg-white gap-9
-                p-11
-                 rounded-4xl`}
+            className={`flex flex-col items-start justify-between
+                text-black bg-white gap-6 sm:gap-9
+                p-6 sm:p-11
+                rounded-2xl sm:rounded-4xl`}
           >
             <h2 style={{ color: item.color || "black" }} className="font-bold text-7xl">
               {item.title}

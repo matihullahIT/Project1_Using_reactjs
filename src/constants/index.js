@@ -48,7 +48,7 @@ export const Testimonialsection=[
     {
         id:"1",
         btn:"Flowers Design",
-        img:"/src/assets/images/testimonial 1.svg"
+        img:"/src/assets/images/testimonial 4.svg"
     },
     {
         id:"2",
@@ -65,7 +65,7 @@ export const Testimonialsection=[
     {
         id:"4",
         btn:"Product Design",
-        img:"/src/assets/images/testimonial 4.svg"
+        img:"/src/assets/images/testimonial 1.svg"
     }
     ,
     {
@@ -74,7 +74,7 @@ export const Testimonialsection=[
         img:"/src/assets/images/testimonial 5.svg"
     }
 ]
-export const footer={
+export const footersection={
     logo:"LOGO",
     date:"1898-2022",
     text:["Home","Works","About Us","Contact Us","Careers","Investors","Developers","Refferal Program",
