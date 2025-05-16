@@ -3,7 +3,8 @@ import { Hero } from '../constants';
 const src = Array.isArray(Hero.img) ? Hero.img : [];
 export default function HeroSection() {
   return (
-    <div className="bg-white lg:flex item-baseline md:flex sm:flex-col px-3 py-6   relative z-10">
+    <div className="bg-white lg:flex item-baseline
+     md:flex sm:flex-col px-3 py-6   relative">
       <div className="capitalize  font-bold">LOGO</div>
       <div className=" relative max-w-6xl text-center  min-w-sm w-screen h-screen
       grid grid-cols-1 md:grid-cols-2 gap-8">
